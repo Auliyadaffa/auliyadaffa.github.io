@@ -119,7 +119,7 @@ section .title{
 }
 
   
-/* home section styling */
+/* home styling */
 .home{
     display: flex;
     background: url("images/oya.png") no-repeat center;
@@ -132,6 +132,26 @@ section .title{
 }
 .home .max-width{
     margin: auto 0 auto 30px;
+}
+.home .home-content .text-1{
+    font-size: 40px;
+    font-weight: 100;
+    color: #E9967A;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: #E9967A;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    color: #E9967A;
+}
+.home .home-content .text-3 span{
+    color:#233d5d;
+    font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
@@ -319,12 +339,11 @@ contact h2{
     text-align: center;
 }
 #footertext{
-    color: white;
-    font-family: ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 100%;
     padding-top: 2%;
     text-align: center;
-
+    color: white;
 }
 
 /* responsive media query start */
@@ -375,6 +394,12 @@ contact h2{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+     .home .home-content .text-2{
+        font-size: 70px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
     }
     .max-width{
         max-width: 930px;
