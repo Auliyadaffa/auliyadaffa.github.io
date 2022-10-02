@@ -28,7 +28,7 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Fresh Graduate from Informatics"],
+        strings: ["Graduated from Informatics"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
